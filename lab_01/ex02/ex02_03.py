@@ -4,3 +4,4 @@ if so % 2 ==0:
     
 else:
     print(so, "Không phải la số chắn :")
+    

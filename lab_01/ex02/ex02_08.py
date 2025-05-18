@@ -7,7 +7,7 @@ def chia_het_cho_5(so_nhi_phan):
 
 chuoi_so_nhi_phan = input("Nhập chuỗi số nhị phân (phân tách bởi dấu phẩy): ")
 chuoi_so_nhi_list = chuoi_so_nhi_phan.split(",")
-so_chia_het_cho_5 = [so for so in chuoi_so_nhi_list if chia_het_cho_5(so)]
+so_chia_het_cho_5 = [so for so in chuoi_so_nhi_list if chia_het_cho_5(so.strip())]
 
 if len(so_chia_het_cho_5) > 0:
     ket_qua = ','.join(so_chia_het_cho_5)
