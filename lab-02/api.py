@@ -3,6 +3,7 @@ from cipher.vigenere import VigenereCipher
 from cipher.railfence import RailFenceCipher
 from flask import Flask, jsonify, request
 
+
 from cipher.caesar import CaesarCipher
 
 app = Flask(__name__)
